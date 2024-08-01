@@ -8,5 +8,7 @@ public:
     neural();
     ~neural();
 private:
-    vector<layer> layers;
+    layer input_layer;
+    vector<layer> hidden_layers;
+    layer output_layer;
 };
